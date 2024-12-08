@@ -4,6 +4,17 @@
 
 This project, completed for the Brown U course DATA1030, explores ML calibration schemes for a low-cost NO2 sensor that is part of the Breathe Providence monitoring network. Low-cost electrochemical gas measurements are biased by meteorological factors (such as temperature) and pollutant cross-sensitivities. Sensors can also drift over time. The objective of this project to improve the accuracy of a Breathe Providence low-cost sensor co-located with a reference measurement. The low-cost sensor is an Alphasense NO2-B434 and it is co-located at the East Providence, RI reference site at Myron J. Francis Elementary. 
 
+# Packages
+Python version is 3.12.5; 
+numpy version 1.26.4; 
+matplotlib version 3.9.2; 
+sklearn version 1.5.1; 
+pandas version 2.2.2; 
+xgboost version 2.1.1;  
+shap version 0.45.1; 
+plotly version 5.23.0; 
+scipy version 1.14.1; 
+
 # Data
 
 Features: I accessed raw hourly measurements from the co-located Breathe Providence Alphasense sensor (NO2, NO, O3) and BME sensor (T, RH) for 2023. Target: hourly NO2 measurements from the East Providence site accessed via the EPA Air Quality System for 2023. 
